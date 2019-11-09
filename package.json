@@ -1,0 +1,45 @@
+{
+  "name": "asciidoctor-color",
+  "version": "0.1.0",
+  "description": "Asciidoctor extension to add color chips in your document",
+  "main": "dist/node/asciidoctor-color.js",
+  "browser": "dist/browser/asciidoctor-color.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "standard",
+    "test": "mocha",
+    "clean": "rm -rf dist/*",
+    "dist": "npm run clean && npm run dist:browser && npm run dist:node",
+    "dist:browser": "mkdir -p dist/browser && browserify src/asciidoctor-color.js --standalone AsciidoctorColor -o dist/browser/asciidoctor-color.js",
+    "dist:node": "mkdir -p dist/node && cp src/**.js dist/node/"
+  },
+  "keywords": [
+    "asciidoctor",
+    "extension",
+    "color"
+  ],
+  "author": "Guillaume Grossetie (https://github.com/mogztter)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mogztter/asciidoctor-color/issues"
+  },
+  "homepage": "https://github.com/Mogztter/asciidoctor-color",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@asciidoctor/core": "^2.0.0",
+    "browserify": "16.2.3",
+    "chai": "4.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "mocha": "6.0.2",
+    "standard": "11.0.1"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}

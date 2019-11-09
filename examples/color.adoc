@@ -1,0 +1,11 @@
+= Colors
+
+[%hardbreaks]
+`#fcf`
+`#00BCD4`
+`rgb(232, 74, 87)`
+`rgba(103,58,183,50%)`
+`hsl(88, 50%, 53%)`
+`hsla(36, 100%, 50%, 75%)`
+
+We should use the color color:blueviolet[] in our logo.
