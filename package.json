@@ -40,6 +40,9 @@
   "standard": {
     "env": [
       "mocha"
+    ],
+    "ignore": [
+      "/dist/"
     ]
   }
 }
