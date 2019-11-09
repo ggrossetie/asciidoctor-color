@@ -31,11 +31,11 @@
   },
   "devDependencies": {
     "@asciidoctor/core": "^2.0.0",
-    "browserify": "16.2.3",
+    "browserify": "16.5.0",
     "chai": "4.2.0",
     "cheerio": "^1.0.0-rc.2",
-    "mocha": "6.0.2",
-    "standard": "11.0.1"
+    "mocha": "6.2.2",
+    "standard": "14.3.1"
   },
   "standard": {
     "env": [
