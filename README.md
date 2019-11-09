@@ -1,6 +1,6 @@
 # :art: Color Extension for Asciidoctor.js
 
-[![Travis build status](https://img.shields.io/travis/Mogztter/asciidoctor-color/master.svg)](https://travis-ci.org/Mogztter/asciidoctor-tweet)
+[![Travis build status](https://img.shields.io/travis/Mogztter/asciidoctor-color/master.svg)](https://travis-ci.org/Mogztter/asciidoctor-color)
 
 An extension for [Asciidoctor.js](https://github.com/asciidoctor/asciidoctor.js) to render color chips.
 
