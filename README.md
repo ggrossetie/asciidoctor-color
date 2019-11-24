@@ -40,4 +40,4 @@ What do you think about `hsla(36, 100%, 50%, 75%)` in our design?
 We should use the color color:blueviolet[] in our logo.
 ```
 
-![](rendering.png)
+![](https://github.com/Mogztter/asciidoctor-color/raw/master/rendering.png)
