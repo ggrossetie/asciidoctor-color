@@ -1,6 +1,6 @@
 {
   "name": "asciidoctor-color",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Asciidoctor extension to add color chips in your document",
   "main": "dist/node/asciidoctor-color.js",
   "browser": "dist/browser/asciidoctor-color.js",
