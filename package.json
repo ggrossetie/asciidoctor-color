@@ -34,7 +34,7 @@
     "browserify": "17.0.0",
     "chai": "4.3.0",
     "cheerio": "^1.0.0-rc.2",
-    "mocha": "8.2.1",
+    "mocha": "8.3.0",
     "standard": "16.0.3"
   },
   "standard": {
